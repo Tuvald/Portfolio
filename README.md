@@ -5,6 +5,7 @@ This website was created as part of my DECO7180 course, and is built to showcase
 
 ## Usage
 Visit [my portfolio page](https://deco1800-6f70f6cd.uqcloud.net/) on the UQ cloud zone to explore my work.
+NB: the cloud does not work anymore. Open the index.html in a browser of your choice instead. 
 
 The website is on one page style, meaning that everything is on one page, and it will only load new pages if you click a button to view one of my projects or other links on my website. 
 
