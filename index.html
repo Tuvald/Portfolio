@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title> Tuva Portfolio</title>
+        <link rel="stylesheet" href="css/site_styles.css">
+
+        <!--------------- Google Fonts-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&family=Poppins:wght@100;300;600&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class="flex-container">
+            <header class="flex-header-menu header-menu" aria-label="Main menu">
+                <div class="header-name">
+                    <a href="#home" class="nav-link brand" aria-label="Home Page" aria-current="page" tab-index="0">Home</a>
+                </div>
+                <div class="header-links">
+                    <a href="#about" class="nav-link" aria-label="Design projects" tab-index="0">About</a>
+                    <a href="#projects" class="nav-link" aria-label="Demonstrations" tab-index="0">Projects</a>
+                    <a href="#reflection" class="nav-link" aria-label="About Tuva" tab-index="0">Reflection</a>
+                </div>
+            </header>
+            <aside class="flex-side-menu side-menu" aria-label="Main menu">
+                <a href="#home" class="nav-link" aria-label="Home page" aria-current="page">
+                    <span>Home</span>
+                </a>
+                <a href="#about" class="nav-link" aria-label="Design projects">
+                    <span>About</span>
+                </a>
+                <a href="#projects" class="nav-link" aria-label="Demonstrations" >
+                    <span>Projects</span>
+                </a>
+                <a href="#reflection" class="nav-link" aria-label="About Tuva">
+                    <span>Reflection</span>
+                </a>
+            </aside>
+            <section id="home" class="flex-main-content" aria-label="Main content">
+                <div class="home-div">
+                    <img class="home-img" src="media/PortfolioHomePage.png" alt="Picture on homepage designed by me.">
+                    <img class="home-text" src="media/PortfolioHeader.png" alt="Picture of the title of the Portfolio: Portfolio Tuva Djupvik.">
+                </div>
+            </section>
+            <section id="about" class="flex-main-content" aria-label="Main content">
+                <div class="centered-content">
+                    <h2>About me</h2>
+                    <img src="media/CV-bilde.JPG" alt="Picture of Tuva Djupvik taken by a friend">
+                    <div class="text-content">
+                        <p>I'm a fourth-year exchange student at the University of Queensland, enhancing my Computer Science Master's program from my home university, the Norwegian University of Science and Technology in Norway.  </p>
+                        <p>I have developed a strong skillset for the workplace through my involvement in school projects, work-related experiences and participation in my university’s organizations. Experiences from my summer internship have enriched my comprehension of programming and teamwork. I am always eager to learn new programming languages and generally expand my knowledge about software development!</p>
+                    </div>
+                </div>
+            </section>
+            <section id="projects" class="flex-main-content" aria-label="Main content">
+                <div class="projects">
+                    <h2 class="projects-heading">PROJETCS</h2>
+                    <div class="project">
+                        <img class="projects-img" src="media/Safe_plate_logo.png" alt="Logo of Safe Plate.">
+                        <h3>Safe Plate</h3>
+                        <p>Safe Plate is an interactive website that aims to solve problems regarding food preferences and allergies when looking for a place to eat out. Users are able to search for food places and have it displayed on a map, view food places in a list view and read more about them and their Eat Safe ratings. It is developed using the React framework, and utilizes the Leaflet open API for the map search, and the Brisbane City Council API for the data about each food place. </p>
+                        <div class="safe-plate-buttons">
+                            <a class="view-project-button" href="https://deco1800teams-stu01t10safeplate.uqcloud.net/" target="_blank">View project</a>
+                            <a class="view-project-button read-more-link" tabindex="0">Read more</a>
+                        </div>
+                        <div class="safe-plate-content">
+                            <h3>From idea to complete product</h3>
+                            <h4>2A - Design inspiration</h4>
+                            <p>The first assignment in the course was related to ideation where we were supposed to come up with a concept and design based on one or more datasets they provided us with. The result was a poster with the low fidelity design of the concept. We had to choose databases from the State Library of Queensland datasets, Australian Broadcasting Corporation (ABC) or the Brisbane City Council. During our first contact session we were presented with the different dataset we could use, and explored the different possibilities together with other students. Below, in Picture 1, the ideas me and another student came up with during this session are presented. </p>
+                            <img class="CS1-img"src="media/CS1.jpg" alt="Sheet from the first contact session showing ideas in list form.">
+                            <p class="picture-text">Picture 1: List view of ideas for how to use the different databases.</p>
+                            <p>After brainstorming ideas for the poster I decided on using two databases from the Brisbane City Council datasets: “Parks - tracks and trails” and “Planned burns”. This was after talking with whom I had discussed the previous ideas with, to ensure we did not use the same idea, as that was not allowed. I was more interested in the other idea we had come up with, which was about food permits and an Eat Safe rating I had not seen on other platforms before. However, I was still eager to go further with my idea and started planning the design for a mobile application. I used Google maps as inspiration, as the main functionality of the application was related to map functionality. Furthermore, to make the application stand out I wanted to implement a notification system for when a planned burn was happening. After doing some research on how the system worked today, which was by following a Facebook account or through email, I wanted my application to send a notification to your phone when a planned burn was happening. This resulted in the poster presented in Piture 2 below. </p>
+                            <img class="poster-img" src="media/PosterBB.png" alt="Poster showing initial plan for Burns Notifier application.">
+                            <p class="picture-text">Picture 2: Final poster for the design of Brizzy Burns application.</p>
+                            <p>This was the end of my individual work for this course, until the final portfolio was to be delivered. </p>
+                            <h4>Reflection</h4>
+                            <p>During this assignment I wrote in my journal for week 2 that <strong>“I am confused by why we are discussing all our ideas with other students as it was an individual assignment, and we were also not allowed to use the same ideas for our posters.”</strong> In retrospect I now realize that this was to make us think outside of the box and help each other come up with innovative concepts for our poster. Moreover, I realize that this was also a chance to start getting to know the other students taking the course, and potentially find a team and an idea you wanted to implement later in the course. When it came to making the poster I had previous experience with Adobe and Illustrator. Therefore, I did not feel that the contact session in week 2 was of any use to me, as I had already gotten further than drawing sketches on paper. The only thing that could have helped in the contact session was if I had been able to discuss my design with other students in more detail, to be able to improve it. After receiving feedback from the lecturers I realize I should have been more critical to my own work, especially related to the design choices I had made. I realize I should have looked more into how other websites solve the same problems, and how I could have improved it. I wanted to use a design I know people are familiar with for it to be simple to use, like Google maps, but I realize I could have made it more engaging so that people would want to use the website again. This could be done by having more interesting interactions when using the map, like using cool effects when the planned burn areas are placed on the map. I could also have used another database to be able to  for example present historical information about each park or trail. </p>
+                            <h4>2B - Team charter</h4>
+                            <p>The next part of the course focused on forming groups and filling out a team charter. We picked teams based on which ideas (posters) we liked the most and wanted to make a website for. As I had previously wanted to make a poster of the idea with the Eat Safe rating, I wanted to join the team for making this website. After the members of the group was decided we sat down and discussed how we wanted our work environment to be, and which technologies to use, like Figma and Miro during the design process. We were eager to start the designing process and created our student accounts on Figma right away. </p>
+                            <h4>Reflection</h4>
+                            <p>During the design and implementation of our project, I realized that some parts of the team charter should have been discussed in more detail. In my journal from week 10 I wrote that one of our team members had complained about not getting enough breaks. As I am used to working for more than 4 hours straight without a break because of my previous summer internship, I had not considered this to be hard for others. Therefore, this should have been discussed when we filled out the team charter to make sure everyone would get enough breaks and felt energized while working. </p>
+                            <h4>2C - Design Proposal</h4>
+                            <p>After forming our team we quickly started performing additional research on the chosen concept and datasets. Firstly we reached out to friends and family asking them about what issues they experienced related to finding a safe place to eat. The issues was mostly related to dietary restrictions and preferences, but there were also mentions of food-poisoning. In addition to asking around about these issues, we also researched existing websites like Google Maps and the Eat Safe ratings page on the Brisbane City Council’s website. We found areas of improvement, leading us to find the main difference we wanted to implement on our website - displaying the Eat safe rating on a map and making it possible to filter on food preferences. After agreeing on the idea for our website, we started creating user stories to identify different user needs, what the website should contain and what problems it should solve. Since we were 4 people on the team, everyone created one user story each. Below, in Picture 3, you can see the user story I created. </p>
+                            <img class="karen-img" src="media/User-persona-Karen-blue.png" alt="User story for Karen">
+                            <p class="picture-text">Picture 3: User story for Karen Miller.</p>
+                            <p>When all user stories was created, the team had an idea of what the website should contain and the design process of the website could begin. We started by deciding to have blue as our theme color, much inspired by the color used on our user stories. Then we decided the name of the application, which was to be “Safe Plate”. As the team leader I was in charge of assigning everyone with a task they wanted to do, and we quickly decided who would design which components on the website. It ended with me being in charge of the the map search and filter options. The initial design for the pages I contributed to making are shown below, in addition to the rest of the prototype. I made these pages: Home page (Picture 4), Filter page (Picture 5), filter on Food type (Picture 6), filter on Allergy (Picture 7), filter on Eat safe rating (Picture 8) and filter on User rating (Picture 9).</p>
+                            <h4>My contributions</h4>
+                            <img class="pro-1" src="media/Contrib1.png" alt="Home page for Safe Plate initial design">
+                            <p class="picture-text">Picture 4: Home page with search.</p>
+                            <img class="pro-1" src="media/Contrib2.png" alt="Filter page for Safe Plate initial design">
+                            <p class="picture-text">Picture 5: Filter page.</p>
+                            <img class="pro-1" src="media/Contrib3.png" alt="Food type filter for Safe Plate initial design">
+                            <p class="picture-text">Picture 6: Filter page with Food type filter open.</p>
+                            <img class="pro-1" src="media/Contrib4.png" alt="Allergy filter for Safe Plate initial design">
+                            <p class="picture-text">Picture 7: Filter page with Allergy filter open.</p>
+                            <img class="pro-1" src="media/Contrib5.png" alt="Eat safe rating filter for Safe Plate initial design">
+                            <p class="picture-text">Picture 8: Filter page with Eat Safe rating filter open.</p>
+                            <img class="pro-1" src="media/Contrib7.png" alt="User rating filter for Safe Plate initial design">
+                            <p class="picture-text">Picture 9: Filter page with User rating filter open.</p>
+                            <h4>The final prototype</h4>
+                            <a target="_blank" href="https://www.figma.com/proto/5QBpwkfTHyK99uXVOGz3Dq/Protoype?type=design&node-id=4-218&t=2syechOaeOOON8eW-1&scaling=scale-down&page-id=0%3A1&starting-point-node-id=4%3A218&mode=design ">Link to the final prototype</a>
+                            <p>When the prototype was finished it was presented to the rest of our class during a contact session in week 6, and we received feedback on how to improve our initial design. We received mostly positive feedback on our design, but we could improve our visualizations of the interactions with the datasets in our prototype. Additionally, we were told that our presentation slides could have a better design. We focused on making an effort to better illustrate the use of datasets in the next iteration, as well as having a more complete theme for the presentation slides. </p>
+                            <h4>Reflection</h4>
+                            <p>During the design process I wrote in my journal that <strong>“I feel like the team is working efficiently and are communicating well.”</strong> Even though two of us was mainly in charge of implementing the website, we still contributed in making the design in Figma. It was fun to be able to contribute to the design of the website, but in afterthought this might have made the design less consistent. Since the team all worked on different parts of the design, it might have made for inconsistencies in the sense of navigation and layout. I am aware that I was the only one that used a white background for my pages, and had I discussed this more thoroughly with my team it could have been avoided. Overall, I was happy with the results of the presentation and that the initial design seemed like a good starting point.   </p>
+                            <h4>2D - MVP</h4>
+                            <p>The next step in the process was to start implementing the proposed design. Early during the development process we realized that our initial design for a mobile application had to be switched with a web application because we wanted faster prototyping. This caused for a redesign of the whole website, and several pages was made even without a clear web design being made first. Apart from this the process went pretty smoothly. We made specific objectives for our website, which included: Search functionality, About page, Map, UI Design, User reviews functionality, Filter functionality and User authentication. Furthermore, we made success criteria related to these objectives, where it in essence said that the website should prevent the user from making errors, be user-friendly and engage users through the Eat Safe rating and filters. After making the objectives and success criteria we decided what should be implemented before the MVP presentation in week 9. We agreed that most of the navigation should be in place, and that the map functionality should be working by that time. User authentication and list view of the food places was moved to the next iteration. </p>
+                            <h4>My contributions</h4>
+                            <div class="not-centered">
+                                <li>Implementation of About Eat Safe Rating page</li>
+                                <li>Implementation of Search functionality on home page - pair programming</li>
+                                <li>Implementation of Map functionality on home page - pair programming</li>
+                            </div>
+                            <p>Below, the main pages that was made for the MVP are presented. Picture 10 shows the Home page with the Search and Map functionality I contributed in making. Picture 11 the Add review page and Picture 12 the About Eat Safe Rating page that I implemented.</p>
+                            <img class="mvp-img" src="media/HomeP.png" alt="Home page of Safe Plate.">
+                            <p class="picture-text">Picture 10: Home page.</p>
+                            <img class="mvp-img" src="media/AddR.png" alt="Add review page for Safe Plate">
+                            <p class="picture-text">Picture 11: Add review page.</p>
+                            <img class="mvp-img" src="media/AboutP.png" alt="About Eat Safe rating page for Safe Plate">
+                            <p class="picture-text">Picture 12: About Eat Safe rating page.</p> 
+                            <h4>Reflection</h4>
+                            <p>Overall I feel like the implementation of the website before the MVP went well. Apart from the change from mobile app to web app we did not have to make many changes to the initial design. The navigation bar has almost the same content as the initial prototype, including Search and Add review. The Profile page was switched with the About page in the menu as user authentication and profiles was not implemented yet. The designers did not seem to stumble upon any big issues during this iteration, but me as part of the developer team faced a problem that would be the cause of bigger issues in the future. The marker that is placed on the map uses longitude and latitude, and in this iteration it used pre-defined values. This means that the map functionality did not work as intended, since the marker would not be placed again after searching for a new food place. Before the MVP presentation we could not find a solution to the problem, which resulted in the use of pre-defined values. Since the problem was not resolved before the end of the iteration, it made for a hard start on the next step, which was to finish the product. </p>
+                            <h4>2E - Final report and Tradeshow presentation</h4>
+                            <p>The last step of the process was to finish the product and present it at a tradeshow. During this iteration more problems arose, making for several big changes from the initial design. These changes included moving the filter functionality to a new page for the list view of the food places, and only displaying one marker on the map at a time. This means that the Add review from the MVP iteration was moved and replaced with the list view of all food places with filters, and the map on the home page had the filters removed from it. Furthermore, the only filter we were able to implement was the Eat Safe ratings, as the other filters would required a new database. We had tried to set up a Firebase database earlier, but was blocked by the UQ cloud. After that it would take us too much time to set up a new database for both the new filters and profile data. Apart from that the rest of the functionality was implemented as originally planned, where user authentication was added with a dummy log in page, and now a log out button that works. </p>
+                            <h4>My contributions</h4>
+                            <div class="not-centered">
+                                <li>Implementation of Food Places page - pair programming (Picture 16) </li>
+                                <li>Implementation of Food Place page - pair programming (Picture 17) </li>
+                                <li>Implementation of filters on food place page - pair programming (Picture 16) </li>
+                                <li>Implementation of marker functionality - pair programming (Picture 13 and 14)</li>
+                                <li>Implementation of Dataprovider, which is a way for all data to be shared between pages. This is used for the search and map functionality, and when choosing a food place from the list view. - pair programming</li>
+                                <li>Was mainly in charge of uploading the application to the UQ cloud zone through Filezilla</li>
+                                <li>Contributed in making the Interaction plan, making sure the fetch calls was provided in the right place. </li>
+                                <p>Contributed in writing the <a target="_blank" href="https://docs.google.com/document/d/1_cwgqVziWrzww-taviBnNJr3bjFH7XF4iPohRkj0sdU/edit?usp=sharing">report</a>, and was in charge of writing these parts:</p>
+                                <li>Data sets</li>
+                                <li>Simulated </li>
+                                <li>Contributed to writing the text before the incidents under Discussion of design process</li>
+                                <li>All of incident 1-9 under Discussion of design process</li>
+                                <li>Navigation under Reflection on the final product</li>
+                                <li>Search functionality under Reflection on the final product</li>
+                                <li>Map and markers under Reflection on the final product</li>
+                                <li>Filters under Reflection on the final product</li>
+                                <li>Eat Safe ratings under Reflection on the final product</li>
+                            </div>
+                            <h4>The final product</h4>
+                            <img class="final-product-img" src="media/LoginPage.jpeg" alt="Log in page">
+                            <p class="picture-text">Picture 13: Log in page.</p>
+                            <img class="final-product-img" src="media/HomePageFinal.jpeg" alt="Home page">
+                            <p class="picture-text">Picture 14: Home page.</p>
+                            <img class="final-product-img" src="media/Map.jpeg" alt="Map">
+                            <p class="picture-text">Picture 15: Map.</p>
+                            <img class="final-product-img" src="media/FoodPlaces.jpeg" alt="Food places page">
+                            <p class="picture-text">Picture 16: Food places page.</p>
+                            <img class="final-product-img food-place" src="media/FoodPlace.jpeg" alt="Food place page">
+                            <p class="picture-text">Picture 17: Food place page.</p>
+                            <img class="final-product-img add-review" src="media/AddReview.png" alt="Add review page">
+                            <p class="picture-text">Picture 18: Add review page.</p>
+                            <img class="final-product-img" src="media/AboutFinal.jpeg" alt="About page">
+                            <p class="picture-text">Picture 19: About page.</p>
+                            <h4>Problems with the cloud</h4>
+                            <p>A week before the tradeshow we tried to upload our application to the UQ cloud, but was not able to do so because of an unkown error. Consequently, a lot of time was lost because we tried to fix our project directory instead of finishing the remaining parts of the product. We had tried asking for help on the discussion forum of the course, but received no feedback. After trying to fix the problem ourselves for several days we went to a workshop the day before the tradeshow, and we were finally able to resolve the issue. The web application is now available at our UQ cloud, and can be accessed through the view project button. To log in you have to use the <strong>username: admin, and the password: admin321.</strong></p>
+                            <h4>Tradeshow</h4>
+                            <p>On the day of the tradeshow we had to present a poster we had made to illustrate our design process, and to perform a demonstration of our website. The poster can be seen in Picture 20 below. During the presentation we talked about how the process from idea to final product had been, as explained earlier on this page, and also explained how user testing had helped us in discovering areas of improvement on our website. After the presentation we were so lucky to have a student check out our website, as shown in Picture 21. She seemed to enjoy the website, and told us she liked the clean and simple design. </p>
+                            <img class="tradeshow-img" src="media/PosterSP.jpeg" alt="Poster presented at Tradeshow.">
+                            <p class="picture-text">Picture 20: Final poster for Safe Plate.</p>
+                            <img class="tradeshow-img" src="media/Tradeshow3.jpeg" alt="Student trying out our website">
+                            <p class="picture-text">Picture 21: Student trying out our website at the tradeshow.</p>
+                            <h4>Feedback</h4>
+                            <p>The feedback we received from both staff and the other student testing our website reflected faults we were already aware of. This included usability issues with the search bar, strange behavior of the marker if the wrong search is performed and the filters not always working. For more detailed reflections on these errors, see the report provided earlier. However, everyone seemed to like the design of the website, pointing out that it was consistent throughout the whole website. This made me very happy, as we had put a lot of work into the initial design and later the redesign of the website. </p>
+                            <h4>Reflection</h4>
+                            <p>Throughout the last development iteration we experienced a lot of problems. We realized too late that most of our problems was related to our poor choice of dataset from the Brisbane City Council. This dataset did not provide data about longitude and latitude that we needed to be able to place several markers on the map at the same time. Additionally, the provided documentation for how to get the wanted data from the dataset had some faults, making it hard to use. Therefore, our choice of dataset caused for the redesign of several pages, and for the use of bad practice methods for fetching data from the chosen dataset. In retrospect the whole team should have done better research on the chosen dataset to find these deficiencies earlier, and should have either changed datasets, or found another dataset containing data about longitude and latitude to be be combined with the first one. Another thing we could have done differently was our initial solution for the filter functionality. We wanted to have our own database containing labels for food preferences and profile data, and started on a Firebase database for this reason. Later we realized that this database was blocked from the UQ cloud zone, meaning it was unusable. After this let down, it would take the team a lot of time to set up a new database that was supported by the cloud. To solve the issue we would have to simulate all the labels, which would take a lot of time, and was therefore not prioritized. As the team leader I think this was an important but difficult decision to make, since it meant that our website would loose one of its main features. Even though we did not implement all the planned features, I am still happy with how the product turned out. </p>
+                        </div>
+                    </div> 
+                    <div class="project">
+                        <img class="portfolio-img" src="media/PortfolioHome.png" alt="Picture of Portfolio website">
+                        <h3>Portfolio</h3>
+                        <p>I made this portfolio website as part of the course DECO7180 mainly to share my reflections on the course, and to showcase my knowledge in software development. It is created using html, css, javascript, and jQuery for some of the styling. The image on the front page is designed by me using Adobe Illustrator. I hope you like it!</p>                        
+                        <a class="view-project-button read-more-portfolio" tabindex="0">Read more</a>
+                        <div class="portfolio-content">
+                            <h4>1 - Annotated Process Portfolio Individual</h4>
+                            <p>I started this portfolio as part of my DECO7140 course, where parts of the contact session demonstrated how to create responsive menus and content on a website. This was a really good stating point for my website, and the inspiration for the three different menus are taken from that course. I started by choosing a color scheme for my website, which resulted in purple and beige tones because I am a big fan of pastel colors. Then I designed my home page in Adobe Illustrator. As I could not start my reflection on the whole course until after every assignment was over, I started implementing the page after the Tradeshow presentation as well. I used the code I had made for my menu from the DECO7140 course, and started adding content to the website. As the DECO7140 course focused on accessibility needs, I have made all buttons and the menu available with the tab key. Furthermore, all images have a describing alt text for screen-readers. </p>
+                            <h4>Reflection</h4>
+                            <p>I am happy with how the website turned out, especially since I started the implementation relatively late. I think that the design of the website is consistent, and I really like how the colors I chose look together and that it is responsive. I realize that I should have started earlier on the design to make it more interesting to use, like having transitions and other effects on the page. </p>
+                        </div>
+                    </div>
+                    <div class="project">
+                        <img class="projects-img" src="media/Ratattack.png" alt="RatAttack logo">
+                        <h3>RatAttack</h3>
+                        <p>I have contributed in the development of a game called RatAttack. This game is inspired by the Plants vs. Zombies game, and aims to be fun but stressful! It is developed using Java, and needs to be run in Android studios or a similar IDE. </p>
+                        <a class="view-project-button" href="https://github.com/Tuvald/ProgramvarearkitekturProsjekt" target="_blank">View project</a>
+                    </div> 
+                    <div class="project">
+                        <h3>Fantastic short stories website</h3>
+                        <p>Me and three other student have developed a website containing a library for short stories. It is created using the React framework, and it is developed using typescript, javascript, css and html. This website is created with accessibility needs and sustainability in mind. </p>
+                        <a class="view-project-button" href="https://github.com/Tuvald/Web-utvikling1" target="_blank">View project</a>
+                    </div> 
+                    <div class="project">
+                        <h3>Fantastic short stories mobile application</h3>
+                        <p>Me and three other students have developed a mobile application for the same short stories website as presented in the project above. It is created using the React Native framework, and most of the code is mainly in typescript. Additionally it uses the same backend as the project above. This website is created with accessibility needs and sustainability in mind. </p>
+                        <a class="view-project-button" href="https://github.com/Tuvald/Web-utvikling2" target="_blank">View project</a>
+                    </div> 
+                </div>
+            </section>
+            <section id="reflection" class="flex-main-content" aria-label="Main content">
+                <div class="reflection-content">
+                    <h2>Course reflection</h2>
+                    <h4>Learning experiences, expectations and recommendations</h4>
+                    <p>When it comes to critical reflection of my own work during this course, I think that where I can improve the most is doing something more out of my comfort zone. I should challenge myself to look more into new programming languages and technologies, rather than using a framework I am already familiar with. My team chose to use the React framework because two of us had already used this in both school and work related projects. However, I did learn a few new things unrelated to the choice of framework, which was map functionality. I had never contributed in developing map functionality before, and found it very exiting that we were going to implement it on our website. Even though it did not turn out the way we hoped, because of the choice of dataset, I still feel like I have a better understanding of how a digital map works and want to learn more about this in the future! </p>
+                    <p>In my journal I wrote in week 1 that <strong>“I want to learn more about how to work in a diverse group with different skill sets, and how to develop an idea together”.</strong>  I feel like the course met these expectations in some way, but that it could also use some improvements. At the start of the course we had an individual assignment where everyone was to make an idea for a product and present it as a poster. Since this was the basis for the ideas to be used in the group assignment I felt like I had little to gain from having to switch up the tables when discussing these ideas each contact session. This made me have to start finding new ideas all over again, since we were not able to use the same ideas for our posters, which felt unnecessary as most people had found a good idea to use already. For this to be effective I feel like team allocation should happen at the start of the course, maybe even in the first contact session. Despite these initial hurdles, I definitely learned more about team dynamics and how to use the presented idea after group creation in week 4. I still wish the team could have started coming up with ideas together from the start of the course, since it was at this time we really explored all the datasets available. For my group specifically I feel like this would have contributed to us doing more thorough research on the chosen dataset. </p>
+                    <p>During week 10 I wrote in my journal that <strong>“One of our team-members have complained about us not taking breaks during the planned working hours, which have caused her to work ineffectively.  This is very sad to hear, and something that should have been discussed when we wrote the team contract.”</strong> Identifying this issue so late in the development process resulted in the change in our working environment occurring at a point that was too far along in the project timeline. Since my team did not think of discussing this ourselves, I fear other teams might also have fallen into the same trap. I think that this could have been solved by having more help in writing the team contract during the formation of the groups, and that the discussion of breaks should be added to the template. </p>
+                    <p>In week 12 I wrote in my journal that <strong>“I am really frustrated by this cloud issue. I have been trying to upload different folders, but to no use. I don’t think the problem is within our code anymore, and I have no idea how to fix it.”</strong> As mentioned earlier, this was one of my teams main issues that arose the week before the tradeshow because we used the React framework. I am very happy that the course allowed us to use other technologies than PHP to develop our product, but I wish there could be given more information about common issues with other frameworks used as well. After not receiving a response on our issue on ED discussion we went to a workshop to resolve it, and realized that the problem was easily fixable by moving our project folder into another folder than the htdocs folder suggested by the course documents. For projects running on nodejs it should be added that the project folder should be uploaded to the nodejs folder, and not the htdocs folder for it to run properly. Additional information about directory paths in the app.js should also be mentioned. This would ensure that the course's diverse allowance of technologies does not become a hindrance for teams opting for different frameworks.</p>
+                    <p>To summarize, my experience with the course is overall positive. I have learned more about teamwork and to implement functionality I have not used before, like map functionality. My team stumbled upon some problems that could have easily been avoided with simple measures. My suggestion for course improvement is therefore to form teams earlier in the course, to follow up the discussion about team charter more closely and add breaks to the template, and to add more information about projects running on nodejs in the course documentation. </p>
+                </div>
+            </section>
+            <footer class="flex-footer-menu footer-menu" aria-label="Main menu">
+                <a href="#home" class="nav-link" aria-label="Home page" aria-current="page">
+                    <span>Home</span>
+                </a>
+                <a href="#about" class="nav-link" aria-label="Design projects">
+                    <span>About</span>
+                </a>
+                <a href="#projects" class="nav-link" aria-label="Demonstrations" >
+                    <span>Projetcs</span>
+                </a>
+                <a href="#reflection" class="nav-link" aria-label="About Tuva">
+                    <span>Reflection</span>
+                </a>
+            </footer>
+        </div>
+
+        <!------- JQuery-->
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+        <!-----script-->
+        <script src="js/site_interactions.js"></script>
+        <script src="js/change_page.js"></script>
+        <script src="js/read-more.js"></script>
+        <script src="js/read-more-portfolio.js"></script>
+    </body>
+</html>

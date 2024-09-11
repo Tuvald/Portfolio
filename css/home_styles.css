@@ -1,0 +1,10 @@
+.centered-content > img {
+    width: 30vw;
+    height: auto;
+    border-radius: 50%;
+}
+
+.centered-content {
+    text-align: center;
+}
+
