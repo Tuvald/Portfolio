@@ -21,4 +21,4 @@ NB: The "View project" button for the Safe Plate project is meant to take you to
 - jQuery for Read more buttons
 
 ## Contact 
-Feel free to contact me at [tuva.djupvik@hotmail.com] or connect with me on [LinkedIn](www.linkedin.com/in/tuvadjupvik).
+Feel free to contact me at [tuva.djupvik@hotmail.com] or connect with me on [LinkedIn](https://www.linkedin.com/in/tuvadjupvik).
